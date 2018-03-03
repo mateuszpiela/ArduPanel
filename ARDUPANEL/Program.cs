@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AutoUpdaterDotNET;
+
 
 namespace ARDUPANEL
 {
@@ -15,7 +15,6 @@ namespace ARDUPANEL
         [STAThread]
         static void Main()
         {
-            AutoUpdater.Start("https://raw.githubusercontent.com/mateuszpiela/ArduPanel/latest.xml");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new WyborComPortu());

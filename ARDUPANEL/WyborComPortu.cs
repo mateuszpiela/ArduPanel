@@ -17,7 +17,7 @@ namespace ARDUPANEL
         public WyborComPortu()
         {
             InitializeComponent();
-            AutoUpdater.Start("https://raw.githubusercontent.com/mateuszpiela/ArduPanel/latest.xml");
+            AutoUpdater.Start("https://raw.githubusercontent.com/mateuszpiela/ArduPanel/master/update.xml");
             string[] ports = SerialPort.GetPortNames();
             foreach(string port in ports)
             {
