@@ -31,7 +31,6 @@ namespace ARDUPANEL
             setcom = comboBox1.SelectedItem.ToString();
             Informacje fr = new Informacje(setcom);
             fr.Show();
-            this.Hide();
 
         }
 
